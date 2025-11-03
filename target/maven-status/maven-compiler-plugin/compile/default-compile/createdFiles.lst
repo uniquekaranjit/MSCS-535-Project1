@@ -1,0 +1,9 @@
+com/unique/securewebapp/entity/User.class
+com/unique/securewebapp/config/SecurityConfig.class
+com/unique/securewebapp/controller/AuthDtos$LoginRequest.class
+com/unique/securewebapp/service/UserService.class
+com/unique/securewebapp/controller/AuthDtos$RegisterRequest.class
+com/unique/securewebapp/repository/UserRepository.class
+com/unique/securewebapp/controller/AuthDtos.class
+com/unique/securewebapp/SecureWebappApplication.class
+com/unique/securewebapp/controller/UserController.class
