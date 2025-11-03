@@ -10,7 +10,7 @@ keytool -genkeypair -alias myhttpskey -keyalg RSA -keysize 2048 -storetype PKCS1
 mvn spring-boot:run
 ```
 
-## Test (same curl as Node.js)
+## Test 
 ```
 curl -k -X POST https://localhost:8443/api/register -H "Content-Type: application/json"   -d '{"username":"alice","password":"S3curePassw0rd"}'
 curl -k -X POST https://localhost:8443/api/login -H "Content-Type: application/json"   -d '{"username":"alice","password":"S3curePassw0rd"}'
